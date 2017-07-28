@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>WishList Page</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link href="../css/style.css" rel='stylesheet' type='text/css' />
+
+</head>
+<body class="z-default z-index">
+<!-- ##NavigationSection####Start## -->
+<div id="flipkart-navbar">
+  <div class="container">
+    <div class="row row1">
+      <ul class="largenav pull-right">
+        <li class="upper-links"><a class="links" href="account.html">Account </a></li>
+        <li class="upper-links"><a class="links" href="Wishlist.html">Wishlist</a></li>
+        <li class="upper-links"><a class="links" href="Checkout.html">Checkout</a></li>
+        <li class="upper-links"><a class="links" href="Products.html">Products</a></li>
+      </ul>
+    </div>
+    <div class="row row2">
+      <div class="col-sm-2">
+        <h2 style="margin:0px;"><span class="smallnav menu" onclick="openNav()">☰ Brand</span></h2>
+        <h1 style="margin:0px;"><span class="largenav">Shopknekt</span></h1>
+      </div>
+      <div class="flipkart-navbar-search smallsearch col-sm-8 col-xs-11">
+        <div class="row">
+          <input class="flipkart-navbar-input col-xs-11" type="" placeholder="Search for Products, Brands and more" name="">
+          <button class="flipkart-navbar-button col-xs-1">
+            <svg width="15px" height="15px">
+              <path d="M11.618 9.897l4.224 4.212c.092.09.1.23.02.312l-1.464 1.46c-.08.08-.222.072-.314-.02L9.868 11.66M6.486 10.9c-2.42 0-4.38-1.955-4.38-4.367 0-2.413 1.96-4.37 4.38-4.37s4.38 1.957 4.38 4.37c0 2.412-1.96 4.368-4.38 4.368m0-10.834C2.904.066 0 2.96 0 6.533 0 10.105 2.904 13 6.486 13s6.487-2.895 6.487-6.467c0-3.572-2.905-6.467-6.487-6.467 "></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="cart largenav col-sm-2">
+        <a class="cart-button">
+          <svg class="cart-svg " width="16 " height="16 " viewBox="0 0 16 16 ">
+            <path d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86 " fill="#fff "></path>
+          </svg> Link
+          <span class="item-number ">0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ##NavigationSection####End## -->
+  <div id="all">
+    <div id="content">
+      <div class="container z-pad-140">
+        <div class="col-md-12">
+          <div class="box text-center">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1">
+                <h1>My wishlist</h1>
+                <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section>
+          <div class="container">
+            <!-- ##Wishlist####Start## -->
+            <table id="cart" class="table ">
+              <thead>
+                <tr class="z-tr-s">
+                  <th style="width:50%">Product</th>
+                  <th style="width:10%">Price</th>
+                  <th style="width:8%">Quantity</th>
+                  <th style="width:22%" class="text-center">Subtotal</th>
+                  <th style="width:10%"></th>
+                </tr>
+              </thead>
+
+                <!-- ##Wishlist_Item####Start## -->
+              <tbody>
+                <tr>
+                  <td data-th="Product">
+                    <div class="row">
+                      <div class="col-sm-2 hidden-xs"><img src="https://as1.ftcdn.net/jpg/01/38/31/68/500_F_138316863_oaV9AJDXchaP9xCwgWgMtHsuMAKFtXiY.jpg" alt="..." class="img-responsive"/></div>
+                      <div class="col-sm-10">
+                        <h4 class="nomargin">Product 1</h4>
+                        <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td data-th="Price" class="text-center">$1.99</td>
+                  <td data-th="Quantity">
+                    <input type="number" class="form-control text-center" value="1">
+                  </td>
+                  <td data-th="Subtotal" class="text-center">1.99</td>
+                  <td class="actions " data-th="">
+                    <a href="cart.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-danger" ><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                  </td>
+                </tr>
+              </tbody>
+                <!-- ##Wishlist_Item####End## -->
+
+                <!-- ##Wishlist_Item####Start## -->
+              <tbody>
+                <tr>
+                  <td data-th="Product">
+                    <div class="row">
+                      <div class="col-sm-2 hidden-xs"><img src="https://as1.ftcdn.net/jpg/01/31/22/64/500_F_131226406_tvrOBdPMiazYFVRb7VX6InrKUA6rbOuL.jpg" alt="..." class="img-responsive"/></div>
+                      <div class="col-sm-10">
+                        <h4 class="nomargin">Product 1</h4>
+                        <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td data-th="Price" class="text-center">$1.99</td>
+                  <td data-th="Quantity">
+                    <input type="number" class="form-control text-center" value="1">
+                  </td>
+                  <td data-th="Subtotal" class="text-center">1.99</td>
+                  <td class="actions" data-th="">
+                    <a href="cart.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                  </td>
+                </tr>
+              </tbody>
+                <!-- ##Wishlist_Item####End## -->
+
+                <!-- ##Wishlist_Item####Start## -->
+              <tbody>
+                <tr>
+                  <td data-th="Product">
+                    <div class="row">
+                      <div class="col-sm-2 hidden-xs"><img src="https://as2.ftcdn.net/jpg/00/51/27/17/500_F_51271721_h6MurmZeAn26USUhhjdFUu8KHp8TWZN4.jpg" alt="..." class="img-responsive"/></div>
+                      <div class="col-sm-10">
+                        <h4 class="nomargin">Product 1</h4>
+                        <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td data-th="Price" class="text-center">$1.99</td>
+                  <td data-th="Quantity">
+                    <input type="number" class="form-control text-center" value="1">
+                  </td>
+                  <td data-th="Subtotal" class="text-center">1.99</td>
+                  <td class="actions" data-th="">
+                    <a href="cart.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                  </td>
+                </tr>
+              </tbody>
+                <!-- ##Wishlist_Item####End## -->
+
+              <tfoot>
+                <tr class="visible-xs">
+                  <td class="text-center"><strong>Total 1.99</strong></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- ##Footer####Start## -->
+  <div class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <h3>Category</h3>
+        <ul class="list1">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Eshop</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">New Collections</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-grid">
+        <h3>Our Account</h3>
+        <ul class="list1">
+          <li><a href="#">Your Account</a></li>
+          <li><a href="#">Personal information</a></li>
+          <li><a href="#">Addresses</a></li>
+          <li><a href="#">Discount</a></li>
+          <li><a href="#">Orders history</a></li>
+          <li><a href="#">Addresses</a></li>
+          <li><a href="#">Search Terms</a></li>
+        </ul>
+      </div>
+      <div class="footer-grid">
+        <h3>Our Support</h3>
+        <ul class="list1">
+          <li><a href="#">Site Map</a></li>
+          <li><a href="#">Search Terms</a></li>
+          <li><a href="#">Advanced Search</a></li>
+          <li><a href="#">Mobile</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Mobile</a></li>
+          <li><a href="#">Addresses</a></li>
+        </ul>
+      </div>
+      <div class="footer-grid">
+        <h3>Newsletter</h3>
+        <p class="footer_desc">Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+        <div class="search_footer">
+          <input type="text" class="text" value="Insert Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Insert Email';}">
+          <input type="submit" value="Submit">
+        </div>
+        <img src="../images/payment.png" class="img-responsive" alt=""/>
+      </div>
+      <div class="footer-grid footer-grid_last">
+        <h3>About Us</h3>
+        <p class="footer_desc">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,.</p>
+        <p class="f_text">Phone:  &nbsp;&nbsp;&nbsp;00-250-2131</p>
+        <p class="email">Email: &nbsp;&nbsp;&nbsp;<span>info(at)shopknekt.com</span></p>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <div class="footer_bottom">
+    <div class="container">
+      <div class="copy">
+        <p>&copy; <a href="http://shopknekt.com" target="_blank"> ShopKnekt </a></p>
+      </div>
+    </div>
+  </div>
+  <!-- ##Footer####End## -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+  </body>
+  </html>

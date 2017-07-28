@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Order Tracking Page</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+<body class="z-index">
+<!-- ##NavigationSection####Start## -->
+<!-- ##Header####Start## -->
+  <header id="header">
+<!-- ##Header_Top####Start## -->
+    <div class="header_top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6">
+            <div class="contactinfo">
+              <ul class="nav nav-pills">
+                <li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i> info@domain.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="social-icons pull-right">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ##Header_Top####End## -->
+
+    <!-- ##Header_Middle####Start## -->
+    <div class="header-middle">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-3">
+            <div class="logo pull-left">
+              <a href="index.html"><img src="../images/logo.png" width="200px;" alt="" /></a>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="shop-menu pull-left">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><i class="fa fa-user"></i> Account</a></li>
+                <li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
+                <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="shop-menu pull-right">
+              <div class="nav navbar-nav">
+                <div class="search">
+                  <input type="text" class="form-control input-sm" maxlength="64" placeholder="Search" />
+                  <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-search"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="shop-menu pull-right">
+              <ul class="nav navbar-nav">
+                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                <li><a href="login.html" ><i class="fa fa-lock"></i> Login</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ##Header_Middle####End## -->
+  </header>
+  <!-- ##Header####Start## -->
+<!-- ##NavigationSection####End## -->
+  <!-- ##Order_Tracking####Start## -->
+  <div class="container">
+    <div class="row shop-tracking-status">
+      <div class="col-md-12">
+        <div class="well">
+          <div class="form-horizontal">
+            <div class="form-group">
+              <label for="inputOrderTrackingID" class="col-sm-2 control-label">Order id</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputOrderTrackingID" value="" placeholder="# put your order id here">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="button" id="shopGetOrderStatusID" class="btn btn-success">Get status</button>
+              </div>
+            </div>
+          </div>
+          
+          <h4>Your order status:</h4>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <span class="prefix">Order Id</span>
+              <span class="label label-success"> OD408636981444185000 (1 Item)</span>
+            </li>
+
+            <li class="list-group-item">
+              <span class="prefix">Order Date </span>
+              <span class="label label-success">12.12.2013</span>
+            </li>
+            <li class="list-group-item">
+              <span class="prefix">Expected Order Delivery Date</span>
+              <span class="label label-success">12.15.2013</span>
+            </li>
+            <li class="list-group-item">
+              <span class="prefix">Amount</span>
+              <span class="label label-success">7000</span>
+            </li>
+          </ul>
+          <div class="order-status">
+           <ol class="progtrckr" data-progtrckr-steps="5">
+             <li class="progtrckr-done">Order Processing</li>
+             <li class="progtrckr-done">Pre-Production</li>
+             <li class="progtrckr-done">In Production</li>
+             <li class="progtrckr-todo">Shipped</li>
+             <li class="progtrckr-todo">Delivered</li>
+           </ol>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <!-- ##Order_Tracking####End## -->
+
+ <!-- ##Footer####Start## -->
+ <footer id="footer"><!--Footer-->
+        <div class="footer-widget">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>Service</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">Online Help</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Change Location</a></li>
+                    <li><a href="#">FAQ’s</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>Quock Shop</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">T-Shirt</a></li>
+                    <li><a href="#">Mens</a></li>
+                    <li><a href="#">Womens</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Shoes</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>Policies</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privecy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Billing System</a></li>
+                    <li><a href="#">Ticket System</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>About SHOPKNEKT</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">Company Information</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Store Location</a></li>
+                    <li><a href="#">Affillate Program</a></li>
+                    <li><a href="#">Copyright</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-3 col-sm-offset-1">
+                <div class="single-widget">
+                  <div class="companyinfo">
+                    <h2><span>SHOP</span>KNEKT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+                  </div>
+                  <form action="#" class="searchform">
+                    <input type="text" placeholder="Your email address" />
+                    <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+                    <p>Get the most recent updates from <br />our site and be updated your self...</p>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <p class="pull-left">Copyright © 2013 SHOPKNEKT Inc. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+  <!-- ##Footer####End## -->
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>

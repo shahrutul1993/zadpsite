@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Cart Page</title>
+  <link rel="shortcut icon" href="../favicon.ico">
+  <!-- Bootstrap Core CSS -->
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="js/jquery.min.js"></script>
+
+
+
+</head>
+<body class="z-default z-index">
+<!-- ##NavigationSection####Start## -->
+<!-- ##Header####Start## -->
+  <header id="header">
+<!-- ##Header_Top####Start## -->
+    <div class="header_top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6">
+            <div class="contactinfo">
+              <ul class="nav nav-pills">
+                <li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i> info@domain.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="social-icons pull-right">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ##Header_Top####End## -->
+
+    <!-- ##Header_Middle####Start## -->
+    <div class="header-middle">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-3">
+            <div class="logo pull-left">
+              <a href="index.html"><img src="../images/logo.png" width="200px;" alt="" /></a>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="shop-menu pull-left">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><i class="fa fa-user"></i> Account</a></li>
+                <li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
+                <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="shop-menu pull-right">
+              <div class="nav navbar-nav">
+                <div class="search">
+                  <input type="text" class="form-control input-sm" maxlength="64" placeholder="Search" />
+                  <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-search"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="shop-menu pull-right">
+              <ul class="nav navbar-nav">
+                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                <li><a href="login.html" ><i class="fa fa-lock"></i> Login</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ##Header_Middle####End## -->
+  </header>
+  <!-- ##Header####Start## -->
+<!-- ##NavigationSection####End## -->
+  <div class="container-fluid z-cart ">
+    <section>
+      <div class="container z-check-s">
+      <!-- ##Cart_Table####Start## -->
+        <table id="cart" border="0" class="table">
+          <thead>
+            <tr class="z-tr-s">
+              <th style="width:50%">Product</th>
+              <th style="width:10%">Price</th>
+              <th style="width:8%">Quantity</th>
+              <th style="width:22%" class="text-center">Total</th>
+              <th style="width:10%"></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="https://as1.ftcdn.net/jpg/01/38/31/68/500_F_138316863_oaV9AJDXchaP9xCwgWgMtHsuMAKFtXiY.jpg" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Product 1</h4>
+                    <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </td>
+
+              <td data-th="Price">$1.99</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">1.99</td>
+              <td class="actions" data-th="">
+                <button class="btn btn-danger btn-sm z-danger-s"><i class="fa fa-trash-o"></i></button>
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="https://as1.ftcdn.net/jpg/01/31/22/64/500_F_131226406_tvrOBdPMiazYFVRb7VX6InrKUA6rbOuL.jpg" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Product 1</h4>
+                    <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </td>
+
+              <td data-th="Price">$1.99</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">1.99</td>
+              <td class="actions" data-th="">
+                <button class="btn btn-danger btn-sm z-danger-s"><i class="fa fa-trash-o"></i></button>
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="https://as1.ftcdn.net/jpg/01/38/31/68/500_F_138316863_oaV9AJDXchaP9xCwgWgMtHsuMAKFtXiY.jpg" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Product 1</h4>
+                    <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </td>
+
+              <td data-th="Price">$1.99</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">1.99</td>
+              <td class="actions" data-th="">
+                <button class="btn btn-danger btn-sm z-danger-s"><i class="fa fa-trash-o"></i></button>
+              </td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr class="visible-xs">
+              <td class="text-center"><strong>Total 1.99</strong></td>
+            </tr>
+
+            <tr>
+              <td>   </td>
+              <td>   </td>
+              <td>   </td>
+              <td><h5>Subtotal</h5></td>
+              <td class="text-right"><h5><strong>$24.59</strong></h5></td>
+            </tr>
+            <tr>
+              <td>   </td>
+              <td>   </td>
+              <td>   </td>
+              <td><h5>Estimated shipping</h5></td>
+              <td class="text-right"><h5><strong>$6.94</strong></h5></td>
+            </tr>
+            <tr>
+              <td>   </td>
+              <td>   </td>
+              <td>   </td>
+              <td><h3>Total</h3></td>
+              <td class="text-right"><h3><strong>$31.53</strong></h3></td>
+            </tr>
+            <tr>
+              <td><a href="#" class="btn btn-primary btn-reg"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+              <td colspan="2" class="hidden-xs"></td>
+              <td><a href="checkout.html" class="btn btn-primary btn-reg">Checkout <i class="fa fa-angle-right"></i></a></td>
+            </tr>
+          </tfoot>
+        </table>
+      <!-- ##Cart_Table####End## -->
+      </div>
+
+      <div class="container">
+        <!-- ##Shipping_Zipcode####Start## -->
+        <table class="table table-hover table-condensed table-striped table-bordered">
+          <tbody>
+            <tr ><td class="z-tr-s">ESTIMATE YOUR SHIPPING & TAXES</td></tr>
+            <tr>
+              <td>
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="span2 control-label" for="inputEmail">Country</label>
+                    <div class="controls">
+                      <select placeholder="Country">
+                        <option>USA</option>
+                        <option>Dubai</option>
+                        <option>India</option>
+                        <option>Afganistan</option>
+                        <option>Nepal</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="span2 control-label" for="inputPassword">Post Code/ Zipcode</label>
+                    <div class="controls">
+                      <input type="number" placeholder="Zip Code">
+                    </div>
+                  </div>
+                  <div class="control-group" >
+                    <div class="controls span2 control-label">
+                      <button type="submit" class="btn btn-reg " >Click to check the price</button>
+                    </div>
+                  </div>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- ##Shipping_Zipcode####End## -->
+      </div>
+    </section>
+  </div>
+
+  <!-- ##Footer####Start## -->
+      <footer id="footer"><!--Footer-->
+        <div class="footer-widget">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>Service</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">Online Help</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Change Location</a></li>
+                    <li><a href="#">FAQ’s</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>Quock Shop</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">T-Shirt</a></li>
+                    <li><a href="#">Mens</a></li>
+                    <li><a href="#">Womens</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Shoes</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>Policies</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privecy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Billing System</a></li>
+                    <li><a href="#">Ticket System</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>About SHOPKNEKT</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">Company Information</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Store Location</a></li>
+                    <li><a href="#">Affillate Program</a></li>
+                    <li><a href="#">Copyright</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-3 col-sm-offset-1">
+                <div class="single-widget">
+                  <div class="companyinfo">
+                    <h2><span>SHOP</span>KNEKT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+                  </div>
+                  <form action="#" class="searchform">
+                    <input type="text" placeholder="Your email address" />
+                    <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+                    <p>Get the most recent updates from <br />our site and be updated your self...</p>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <p class="pull-left">Copyright © 2013 SHOPKNEKT Inc. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ##Footer####End## -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</body>
+</html>

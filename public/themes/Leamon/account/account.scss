@@ -1,0 +1,94 @@
+$primary:#23527c;
+$secondary: #fff;
+$light: #22404f;
+$dark:#B2B2B2;
+$black:#000;
+
+
+/*account start*/
+.z-default .form-control {
+  padding: 0px;
+  font-size: 14px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  border-bottom: 1px solid $dark;
+  background: transparent; }
+
+.z-default .form-control:focus {
+  border: none !important;
+  box-shadow: none !important;
+  border-bottom: 2px solid $light !important; }
+
+.z-default .login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  width: 300px;
+  height: 300px; }
+
+/*forms end*/
+.z-default .login h1 {
+  color: $secondary;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-align: center; }
+
+.z-default .z-login-social {
+  border-right: 1px solid $dark; }
+
+.z-default .main .nav-tabs.nav-justified {
+  border-top: 3px solid $light; }
+
+.z-default .main .nav-tabs > li.active > a, .main .nav-tabs > li.active > a:focus, .main .nav-tabs > li.active > a:hover {
+  border-top: 5px solid $light !important;
+  border-radius: 0px;
+  color: $secondary; }
+
+.z-default .main .nav-tabs > li > a, .main.nav-tabs > li > a, .main .nav-tabs > li > a {
+  border: none !important;
+  color: $black;
+  font-weight: 600;
+  letter-spacing: 3px; }
+
+.z-default .z-pad-140 {
+  padding-top: 140px; }
+
+/*tabs*/
+.z-default .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:active {
+  border: none;
+  background: $light;
+  color: $secondary;
+  border-radius: 0px; }
+
+.z-default .col-md1.simpleCart_shelfItem:hover {
+  box-shadow: 1px 1px 12px -4px rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease all; }
+
+.z-default .nav-tabs.nav-justified > li > a {
+  border-bottom: 1px solid $dark;
+  background: $secondary;
+  border-radius: 0px;
+  color: $light; }
+
+/*.*/
+/*tabs*/
+.z-default .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:active {
+  border: none;
+  background: $light;
+  color: $secondary;
+  border-radius: 0px; }
+
+.z-default .col-md1.simpleCart_shelfItem:hover {
+  box-shadow: 1px 1px 12px -4px rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease all; }
+
+.z-default .nav-tabs.nav-justified > li > a {
+  border-bottom: 1px solid $dark;
+  background: $secondary;
+  border-radius: 0px;
+  color: $light; }
+
+/*account End*/

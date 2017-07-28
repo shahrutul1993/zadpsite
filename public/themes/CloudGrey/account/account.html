@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Account Page</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="../css/style.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+
+</head>
+<body class="z-default z-index">
+<!-- ##NavigationSection####Start## -->
+<!-- ##Header####Start## -->
+  <header id="header">
+<!-- ##Header_Top####Start## -->
+    <div class="header_top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-6">
+            <div class="contactinfo">
+              <ul class="nav nav-pills">
+                <li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i> info@domain.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="social-icons pull-right">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ##Header_Top####End## -->
+
+    <!-- ##Header_Middle####Start## -->
+    <div class="header-middle">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-3">
+            <div class="logo pull-left">
+              <a href="index.html"><img src="../images/logo.png" width="200px;" alt="" /></a>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="shop-menu pull-left">
+              <ul class="nav navbar-nav">
+                <li><a href="#"><i class="fa fa-user"></i> Account</a></li>
+                <li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
+                <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="shop-menu pull-right">
+              <div class="nav navbar-nav">
+                <div class="search">
+                  <input type="text" class="form-control input-sm" maxlength="64" placeholder="Search" />
+                  <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-search"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="shop-menu pull-right">
+              <ul class="nav navbar-nav">
+                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                <li><a href="login.html" ><i class="fa fa-lock"></i> Login</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- ##Header_Middle####End## -->
+  </header>
+  <!-- ##Header####Start## -->
+<!-- ##NavigationSection####End## -->
+<div id="mySidenav" class="sidenav">
+  <div class="container" style="background-color: #2874f0; padding-top: 10px;">
+    <span class="sidenav-heading">Home</span>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  </div>
+  <a href="http://clashhacks.in/">Link</a>
+  <a href="http://clashhacks.in/">Link</a>
+  <a href="http://clashhacks.in/">Link</a>
+  <a href="http://clashhacks.in/">Link</a>
+</div>
+  <div class="container-fluid ">
+    <div class="container z-pad-140">
+    <!-- ##Accounts_Tab###Start## -->
+      <div class="col-md-3 col-md-offset-2 z-tabpad1-s z-login-social">
+      <div>
+        <button href="fb.com" class="btn btn-primary" style="width: 200px;"><i class="fa fa-facebook"></i> Login Using Facebook</button>
+        </div><br />
+        <div>
+        <button href="fb.com" class="btn btn-info" style="width: 200px;"><i class="fa fa-twitter"></i> Login Using Twitter</button>
+        </div><br />
+        <div>
+        <button href="fb.com" class="btn btn-danger" style="width: 200px;"><i class="fa fa-google-plus"></i> Login Using Google</button>
+        </div>
+      </div>
+      <!-- ##Accounts_Tab###End## -->
+
+      <div class="col-md-4 z-tabpad1-s">
+        <ul class="nav nav-tabs  nav-justified z-navtab-s">
+          <li class="active z-active-s" ><a data-toggle="pill" href="#login">Login</a></li>
+          <li class="z-reg-s"><a data-toggle="pill" href="#register">Register</a></li>
+        </ul>
+        
+        <div class="tab-content z-tabpad">
+          <!-- ##Login_Form###Start## -->
+          <div class="tab-pane fade in active" id="login">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" name="" value="" placeholder=" Username" />
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="password" name='password' placeholder="password"/>
+              </div>
+              <div class="form-group text-center">
+                <input type="checkbox"  class="" name="remember" >
+                <label for="remember"> Remember Me</label>
+              </div>
+              <div class="form-group">
+                <input type="submit" name="login-submit"   class="btn btn-info btn-custom center-block" value="Log In">
+              </div>
+              <div class="form-group text-center">
+                <a href="" class="forgot-password z-for-s">Forgot Password?</a>
+              </div>
+            </form>
+          </div>
+          <!-- ##Login_Form###End## -->
+
+          <!-- ##Registration_Form###Start## -->
+          <div class="tab-pane fade " id="register" >
+            <div class="form-group">
+              <input type="text" class="form-control" name="" value="" placeholder=" Username" />
+            </div>
+            <div class="form-group">
+              <input type="email" name="email"  class="form-control " placeholder="Email Address" value="">
+            </div>
+            <div class="form-group">
+              <input type="password" name="password"  class="form-control " placeholder="Password">
+            </div>
+            <div class="form-group">
+              <input type="password" name="confirm-password"  class="form-control z-pass-s" placeholder="Confirm Password">
+            </div>
+            <div class="form-group">
+              <input type="submit" name="register-submit"  class="btn btn-info btn-reg center-block" value="Register Now">
+            </div>
+          </div>
+          <!-- ##Registration_Form###End## -->
+
+        </div>
+      </div>
+      <!-- ##Accounts_Tab###End## -->
+    </div>
+  </div>
+
+  <!-- ##Footer####Start## -->
+ <footer id="footer"><!--Footer-->
+        <div class="footer-widget">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>Service</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">Online Help</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Change Location</a></li>
+                    <li><a href="#">FAQ’s</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>Quock Shop</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">T-Shirt</a></li>
+                    <li><a href="#">Mens</a></li>
+                    <li><a href="#">Womens</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Shoes</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>Policies</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privecy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Billing System</a></li>
+                    <li><a href="#">Ticket System</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="single-widget">
+                  <h2>About SHOPKNEKT</h2>
+                  <ul class="nav nav-pills nav-stacked">
+                    <li><a href="#">Company Information</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Store Location</a></li>
+                    <li><a href="#">Affillate Program</a></li>
+                    <li><a href="#">Copyright</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-sm-3 col-sm-offset-1">
+                <div class="single-widget">
+                  <div class="companyinfo">
+                    <h2><span>SHOP</span>KNEKT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+                  </div>
+                  <form action="#" class="searchform">
+                    <input type="text" placeholder="Your email address" />
+                    <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+                    <p>Get the most recent updates from <br />our site and be updated your self...</p>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <p class="pull-left">Copyright © 2013 SHOPKNEKT Inc. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+  <!-- ##Footer####End## -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</body>
+</html>

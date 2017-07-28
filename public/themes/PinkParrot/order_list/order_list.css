@@ -1,0 +1,16 @@
+.z-default .panel-info > .panel-heading {
+  color: #ffffff;
+  background-color: #22404f;
+  border-color: #22404f;
+  border-radius: 0px; }
+
+.z-default .panel-info {
+  border: none;
+  border-radius: 0px; }
+
+.z-default .z-img-ch {
+  max-width: 80px !important; }
+
+.btn-custom {
+  width: 85px;
+  margin-top: 10px; }

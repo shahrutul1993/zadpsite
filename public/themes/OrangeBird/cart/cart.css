@@ -1,0 +1,24 @@
+.z-default .z-tr-s {
+  color: #fff;
+  background-color: #22404f;
+  border-color: #22404f; }
+
+.z-default .z-cart-s {
+  color: #fff;
+  background-color: #3498db;
+  border-color: #3498db; }
+
+/*btn-css*/
+.z-default .btn-custom {
+  color: #fff !important;
+  background-color: #22404f !important;
+  border-color: #eaeaea !important;
+  border-radius: 0px !important; }
+
+.z-default .btn-custom:hover {
+  color: #22404f !important;
+  background-color: #eaeaea !important;
+  border-color: #22404f !important;
+  border-radius: 0px !important; }
+
+/*.*/

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order list</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">      
+  <link href="../bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">        
+  <link href="../style.css" rel="stylesheet">
+</head>
+<body class="z-default">
+<!-- ##Header####Start## --> 
+    <div id="top-bar" class="container">
+        <div class="col-md-4">
+          <form method="POST" class="search_form">
+            <input type="text" class="input-block-level search-query" Placeholder="eg. T-sirt">
+          </form>
+        </div>
+        <div class="col-md-8">
+          <div class="account pull-right">
+            <ul class="user-menu">        
+              <li><a href="../account/account.html">My Account</a></li>
+              <li><a href="../cart/cart.html">Your Cart</a></li>
+              <li><a href="../checkout/checkout.html">Checkout</a></li>         
+              <li><a href="../account/account.html">Login</a></li>    
+            </ul>
+          </div>
+        </div>
+    </div>
+    <!-- ##Header####End## -->
+    <div id="wrapper" class="container">
+      <!-- ##NavigationSection####Start## -->
+      <section class="navbar main-menu">
+        <div class="navbar-inner main-menu">        
+          <a href="../index.html" class="logo pull-left"><img src="../themes/images/logo.png" class="site_logo" alt=""></a>
+          <nav id="menu" class="pull-right">
+            <ul>
+              <li><a href="../product/products.html">Woman</a>         
+                <ul>
+                  <li><a href="../product/products.html">Lacinia nibh</a></li>                 
+                  <li><a href="../product/products.html">Eget molestie</a></li>
+                  <li><a href="../product/products.html">Varius purus</a></li>                 
+                </ul>
+              </li>                             
+              <li><a href="../product/products.html">Man</a></li>      
+              <li><a href="../product/products.html">Sport</a>
+                <ul>                  
+                  <li><a href="../product/products.html">Gifts and Tech</a></li>
+                  <li><a href="../product/products.html">Ties and Hats</a></li>
+                  <li><a href="../product/products.html">Cold Weather</a></li>
+                </ul>
+              </li>             
+              <li><a href="../product/products.html">Hangbag</a></li>
+              <li><a href="../product/products.html">Best Seller</a></li>
+              <li><a href="../product/products.html">Top Seller</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <!-- ##NavigationSection####End## -->
+  <!-- ##Order_Tracking####Start## -->
+  <div class="container">
+    <div class="row shop-tracking-status">
+      <div class="col-md-12">
+        <div class="well">
+          <div class="form-horizontal">
+            <div class="form-group">
+              <label for="inputOrderTrackingID" class="col-sm-2 control-label">Order id</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputOrderTrackingID" value="" placeholder="# put your order id here">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="button" id="shopGetOrderStatusID" class="btn btn-warning">Get status</button>
+              </div>
+            </div>
+          </div>
+          
+          <h4>Your order status:</h4>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <span class="prefix">Order Id</span>
+              <span class="label label-success"> OD408636981444185000 (1 Item)</span>
+            </li>
+
+            <li class="list-group-item">
+              <span class="prefix">Order Date </span>
+              <span class="label label-success">12.12.2013</span>
+            </li>
+            <li class="list-group-item">
+              <span class="prefix">Expected Order Delivery Date</span>
+              <span class="label label-success">12.15.2013</span>
+            </li>
+            <li class="list-group-item">
+              <span class="prefix">Amount</span>
+              <span class="label label-success">7000</span>
+            </li>
+          </ul>
+          <div class="order-status">
+           <ol class="progtrckr" data-progtrckr-steps="5">
+             <li class="progtrckr-done">Order Processing</li>
+             <li class="progtrckr-done">Pre-Production</li>
+             <li class="progtrckr-done">In Production</li>
+             <li class="progtrckr-todo">Shipped</li>
+             <li class="progtrckr-todo">Delivered</li>
+           </ol>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <!-- ##Order_Tracking####End## -->
+
+<!-- ##Footer####Start## -->
+      <section id="footer-bar">
+        <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <h4>Navigation</h4>
+            <ul class="nav">
+              <li><a href="./index.html">Homepage</a></li>  
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="./contact.html">Contac Us</a></li>
+              <li><a href="./cart.html">Your Cart</a></li>
+              <li><a href="./register.html">Login</a></li>              
+            </ul>         
+          </div>
+          <div class="col-md-4">
+            <h4>My Account</h4>
+            <ul class="nav">
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Order History</a></li>
+              <li><a href="#">Wish List</a></li>
+              <li><a href="#">Newsletter</a></li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p class="logo"><img src="../themes/images/logo.png" class="site_logo" alt=""></p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. the  Lorem Ipsum has been the industry's standard dummy text ever since the you.</p>
+            <br/>
+            <span class="social_icons">
+              <a class="facebook" href="#">Facebook</a>
+              <a class="twitter" href="#">Twitter</a>
+              <a class="skype" href="#">Skype</a>
+              <a class="vimeo" href="#">Vimeo</a>
+            </span>
+          </div>          
+        </div> 
+        </div> 
+      </section>
+      <section id="copyright">
+        <span>Copyright 2013 bootstrappage template  All right reserved.</span>
+      </section>
+      <!-- ##Footer####End## -->
+    </div>
+</div>
+      <!-- ##Footer####End## -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+  </body>
+  </html>

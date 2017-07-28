@@ -1,0 +1,101 @@
+/*Single Start*/
+.carousel-inner .active.left {
+  left: -20%; }
+
+.carousel-inner .next {
+  left: 20%; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none; }
+
+.col-lg-2 {
+  width: 20%; }
+
+.z-default .single-para h2 {
+  font-size: 1.5em;
+  color: #22404f;
+  line-height: 1.5em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700; }
+
+.z-default label.add-to {
+  display: block;
+  font-size: 2em;
+  color: #22404f; }
+
+.z-default .single-para p {
+  font-size: 0.9em;
+  color: #23527c;
+  line-height: 1.8em; }
+
+.z-default a.cart {
+  padding: 0.3em 0.7em;
+  color: #fff;
+  background: #23527c;
+  margin: 1.5em 0 0;
+  font-size: 1em;
+  display: inline-block;
+  line-height: 1.6em;
+  text-align: center;
+  text-decoration: none; }
+
+.z-default a.cart:hover {
+  background: #22404f; }
+
+.z-default .star-on {
+  padding: 1em 0; }
+
+.z-default .star-on ul {
+  float: left; }
+
+.z-default .star-on ul li {
+  display: inline-block; }
+
+.z-default .star-on ul li i {
+  color: #000; }
+
+.z-default .review {
+  float: left;
+  padding: 0 1em; }
+
+.z-default .star-on a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #23527c; }
+
+.z-default .star-on a:hover {
+  color: #dark; }
+
+.z-default .single-bottom h4 {
+  color: #22404f;
+  font-size: 1.5em;
+  padding: 0.5em;
+  border-bottom: 1px solid #fff; }
+
+.z-default .single {
+  padding: 4em 0; }
+
+.z-default .available h6 {
+  color: #23527c;
+  font-size: 1.4em;
+  padding: 0 0 1em; }
+
+.z-default .available ul li {
+  display: inline-block;
+  padding: 0 0.5em 0 0;
+  color: #23527c;
+  font-size: 0.9em; }
+
+.z-default .available ul li select {
+  outline: none;
+  padding: 3px; }
+
+.z-default .available {
+  padding: 2em 0 1em; }
+
+.z-default .horizontal_line {
+  height: 2px;
+  background: #22404f;
+  width: 15%;
+  margin: 30px 0px 20px; }
+/*Single End*/

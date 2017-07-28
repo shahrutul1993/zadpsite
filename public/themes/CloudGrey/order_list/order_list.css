@@ -1,0 +1,18 @@
+/*order_list Start*/
+.z-default .panel-info > .panel-heading {
+  color: #fff;
+  background-color: #22404f;
+  border-color: #22404f;
+  border-radius: 0px; }
+
+.z-default .panel-info {
+  border: none;
+  border-radius: 0px; }
+
+.z-default .z-img-ch {
+  max-width: 80px !important; }
+
+.btn-custom {
+  width: 85px;
+  margin-top: 10px; }
+/*order_list Start*/

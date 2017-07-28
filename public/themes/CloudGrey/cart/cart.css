@@ -1,0 +1,25 @@
+/*cart start*/
+.z-default .z-tr-s {
+  color: #fff;
+  background-color: #22404f;
+  border-color: #22404f; }
+
+.z-default .z-cart-s {
+  color: #fff;
+  background-color: #B2B2B2;
+  border-color: #B2B2B2; }
+
+/*btn-css*/
+.z-default .btn-custom {
+  color: #fff !important;
+  background-color: #22404f !important;
+  border-color: #22404f !important;
+  border-radius: 0px !important; }
+
+.z-default .btn-custom:hover {
+  color: #fff !important;
+  background-color: #000 !important;
+  border-color: #000 !important;
+  border-radius: 0px !important; }
+
+/*cart End*/

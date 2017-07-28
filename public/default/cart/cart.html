@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Cart Page</title>
+  <link rel="shortcut icon" href="../favicon.ico">
+  <!-- Bootstrap Core CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="cart.css" rel="stylesheet">
+</head>
+<body class="z-default">
+  <div class="container-fluid ">
+    <section>
+      <div class="container z-check-s">
+      <!-- ##Cart_Table####Start## -->
+        <table id="cart" border="0" class="table">
+          <thead>
+            <tr class="z-tr-s">
+              <th style="width:50%">Product</th>
+              <th style="width:10%">Price</th>
+              <th style="width:8%">Quantity</th>
+              <th style="width:22%" class="text-center">Total</th>
+              <th style="width:10%"></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="https://as1.ftcdn.net/jpg/01/38/31/68/500_F_138316863_oaV9AJDXchaP9xCwgWgMtHsuMAKFtXiY.jpg" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Product 1</h4>
+                    <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </td>
+
+              <td data-th="Price">$1.99</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">1.99</td>
+              <td class="actions" data-th="">
+                <button class="btn btn-danger btn-sm z-danger-s"><i class="fa fa-trash-o"></i></button>
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="https://as1.ftcdn.net/jpg/01/31/22/64/500_F_131226406_tvrOBdPMiazYFVRb7VX6InrKUA6rbOuL.jpg" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Product 1</h4>
+                    <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </td>
+
+              <td data-th="Price">$1.99</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">1.99</td>
+              <td class="actions" data-th="">
+                <button class="btn btn-danger btn-sm z-danger-s"><i class="fa fa-trash-o"></i></button>
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="https://as1.ftcdn.net/jpg/01/38/31/68/500_F_138316863_oaV9AJDXchaP9xCwgWgMtHsuMAKFtXiY.jpg" alt="..." class="img-responsive"/></div>
+                  <div class="col-sm-10">
+                    <h4 class="nomargin">Product 1</h4>
+                    <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </td>
+
+              <td data-th="Price">$1.99</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="1">
+              </td>
+              <td data-th="Subtotal" class="text-center">1.99</td>
+              <td class="actions" data-th="">
+                <button class="btn btn-danger btn-sm z-danger-s"><i class="fa fa-trash-o"></i></button>
+              </td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr class="visible-xs">
+              <td class="text-center"><strong>Total 1.99</strong></td>
+            </tr>
+
+            <tr>
+              <td>   </td>
+              <td>   </td>
+              <td>   </td>
+              <td><h5>Subtotal</h5></td>
+              <td class="text-right"><h5><strong>$24.59</strong></h5></td>
+            </tr>
+            <tr>
+              <td>   </td>
+              <td>   </td>
+              <td>   </td>
+              <td><h5>Estimated shipping</h5></td>
+              <td class="text-right"><h5><strong>$6.94</strong></h5></td>
+            </tr>
+            <tr>
+              <td>   </td>
+              <td>   </td>
+              <td>   </td>
+              <td><h3>Total</h3></td>
+              <td class="text-right"><h3><strong>$31.53</strong></h3></td>
+            </tr>
+            <tr>
+              <td><a href="#" class="btn btn-primary btn-custom"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+              <td colspan="2" class="hidden-xs"></td>
+              <td><a href="checkout.html" class="btn btn-primary btn-custom">Checkout <i class="fa fa-angle-right"></i></a></td>
+            </tr>
+          </tfoot>
+        </table>
+      <!-- ##Cart_Table####End## -->
+      </div>
+
+      <div class="container">
+        <!-- ##Shipping_Zipcode####Start## -->
+        <table class="table table-hover table-condensed table-striped table-bordered">
+          <tbody>
+            <tr ><td class="z-tr-s">ESTIMATE YOUR SHIPPING & TAXES</td></tr>
+            <tr>
+              <td>
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="span2 control-label" for="inputEmail">Country</label>
+                    <div class="controls">
+                      <select placeholder="Country">
+                        <option>USA</option>
+                        <option>Dubai</option>
+                        <option>India</option>
+                        <option>Afganistan</option>
+                        <option>Nepal</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="span2 control-label" for="inputPassword">Post Code/ Zipcode</label>
+                    <div class="controls">
+                      <input type="number" placeholder="Zip Code">
+                    </div>
+                  </div>
+                  <div class="control-group" >
+                    <div class="controls span2 control-label">
+                      <button type="submit" class="btn btn-custom " >Click to check the price</button>
+                    </div>
+                  </div>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- ##Shipping_Zipcode####End## -->
+      </div>
+    </section>
+  </div>
+
+  <!-- ##Footer####Start## -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <span>
+            Created with <i class="fa fa-heart"></i> by <a href="http://www.shopknekt.com" class="shopknekt_link" target="_blank">shopknekt.com</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ##Footer####End## -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</body>
+</html>

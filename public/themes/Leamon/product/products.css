@@ -1,0 +1,269 @@
+/*Product Start*/
+.z-default .horizontal_line {
+  height: 2px;
+  background: #22404f;
+  width: 15%;
+  margin: 30px 0px 20px; }
+
+.z-default .sidebar ul {
+  height: 100px;
+  overflow-x: scroll; }
+
+.z-default .sidebar ul li {
+  line-height: 25px; }
+
+.z-default .product-bottom.sidebar {
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  padding: 0.5px 10px;
+  margin-right: 20px; }
+
+.z-default .affix {
+  width: 265px;
+  top: -650px; }
+
+/*--product--*/
+.z-default .products h2 {
+  color: #22404f;
+  font-size: 3em;
+  text-align: center;
+  margin: 0 0 1em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700; }
+
+.z-default .products {
+  padding: 4em 0;
+  padding-top: 130px !important; }
+
+/*--//menu-drop--*/
+/*----*/
+.z-default .fashion-grid {
+  float: left;
+  width: 24%; }
+
+.z-default .fashion-grid1 {
+  float: right;
+  width: 68%; }
+
+.z-default h6.best2 {
+  font-size: 0.9em;
+  line-height: 1.5em; }
+
+.z-default h6.best2 a {
+  color: #22404f;
+  text-decoration: none; }
+
+.z-default h6.best2 a:hover {
+  color: #23527c; }
+
+.z-default span.price-in1 {
+  font-size: 1.3em;
+  padding: 0.3em 0 0;
+  display: block;
+  color: #23527c; }
+
+.z-default .product-go {
+  padding: 1em 0; }
+
+/*--product--*/
+.z-default .col-md1 {
+  padding: 0.5em; }
+
+.z-default .price h5 {
+  font-size: 1.1em; }
+
+.z-default .price a {
+  padding: 0.3em 0.5em; }
+
+/*--products--*/
+.z-default .products {
+  padding: 2em 0; }
+
+.z-default .products h2 {
+  font-size: 2em;
+  margin: 0 0 0.5em; }
+
+.z-default .col-md3 {
+  padding: 0 3px;
+  margin: 0 0 1em; }
+
+.z-default .price a {
+  font-size: 0.8em; }
+
+.z-default .col-md-9 {
+  padding: 0; }
+
+.z-default .fashion-grid {
+  width: 20%; }
+
+.z-default .fashion-grid1 {
+  width: 76%; }
+
+.z-default .product-bottom {
+  padding: 0; }
+
+.z-default .product-go {
+  padding: 0.5em 0; }
+
+.z-default .tag {
+  padding: 1em 0; }
+
+.z-default .tags {
+  padding: 1em 0 0; }
+
+.z-default .grid {
+  width: 32%; }
+
+/*--product--*/
+.z-default .products h2 {
+  font-size: 1.8em; }
+
+.z-default .products {
+  padding: 76px; }
+
+.z-default h3.cate {
+  font-size: 1.2em;
+  margin: 40px 0px 0px 0px; }
+
+.z-default .contact h3 {
+  font-size: 1.7em;
+  margin: 0; }
+
+.z-default .in-contact {
+  padding: 0;
+  margin: 0.5em 0 0; }
+
+.z-default .contact-bottom input[type="text"] {
+  padding: 0.5em; }
+
+.z-default .contact-bottom-top {
+  margin: 0.5em 0 0; }
+
+.z-default .contact-bottom-top textarea {
+  min-height: 120px; }
+
+.z-default .contact-form input[type="submit"] {
+  margin: 0.5em 0px 0;
+  padding: 0.3em 0.5em;
+  font-size: 1em; }
+
+.z-default .address {
+  padding: 1em 0 0; }
+
+.z-default .address-more h2 {
+  font-size: 1.5em;
+  margin: 0 0 0.5em; }
+
+.z-default .address-grid {
+  padding: 0; }
+
+.z-default .address-grid i {
+  font-size: 2em; }
+
+.z-default .address1 p {
+  font-size: 1em; }
+
+.z-default .address1 {
+  margin-top: 0; }
+
+.z-default .contact {
+  padding: 1.5em 0 0.5em; }
+
+.z-default .product-bottom {
+  padding: 0; }
+
+.z-default .single {
+  padding: 11em 0 0.5em; }
+
+.z-default .z-mar-150 {
+  margin-top: 150px; }
+
+.z-default .z-product-item {
+  padding: 30px; }
+
+/*--content--*/
+.z-default .content-top h1 {
+  color: #fff;
+  font-size: 3em;
+  font-family: 'OleoScript-Regular';
+  text-align: center;
+  margin: 0 0 1em; }
+
+.z-default .col-md1 img {
+  margin: 0 auto; }
+
+.z-default .col-md1 h3 {
+  font-size: 1.1em;
+  line-height: 1.1em;
+  text-align: center;
+  margin: 1em 0 0.7em;
+  color: #22404f; }
+
+.z-default .col-md1 h3 a {
+  color: #23527c;
+  text-decoration: none;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700; }
+
+.z-default .price h5 {
+  color: #23527c;
+  font-size: 1.2em;
+  margin: 14px 0; }
+
+.z-default .price {
+  text-align: center; }
+
+.z-default .price a {
+  color: #fff;
+  font-size: 0.8em;
+  display: block;
+  background-color: #22404f;
+  padding: 0.3em 0.6em;
+  border-radius: 3px;
+  text-decoration: none;
+  width: 43%;
+  margin: 0 auto; }
+
+.z-default .content-top {
+  padding: 4em 0; }
+
+.z-default .content-top1 {
+  padding: 2.5em 0; }
+
+.z-default .col-md1 {
+  padding: 1em; }
+
+.z-default .col-md1:hover .price a {
+  background-color: #23527c;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all; }
+
+.z-default .content-top h4 {
+  color: #000;
+  font-size: 2em;
+  margin: 0; }
+
+.z-default .content-top p {
+  font-size: 1em;
+  color: #23527c;
+  line-height: 1.8em;
+  margin: 2em 0; }
+
+.z-default .col-md3 {
+  text-align: center; }
+
+.z-default .col-md3 {
+  background: url(../images/11.jpg) no-repeat;
+  min-height: 399px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover; }
+
+.z-default .col-md1.simpleCart_shelfItem:hover {
+  box-shadow: 1px 1px 12px -4px rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease all; }
+/*Product End*/
